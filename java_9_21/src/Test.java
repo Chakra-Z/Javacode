@@ -1,5 +1,5 @@
 public class Test {
-    public static SeqList list = new SeqList();
+    static SeqList list = new SeqList();
 
     public static void main(String[] args){
         listDisplay(); // 打印顺序表
