@@ -5,6 +5,7 @@ public class Test {
         testAddIndex();
         testContains();
         testRemove();
+        testRemoveAllKey();
     }
     public static void testAddFirst() {
         SingleLinkedList list = new SingleLinkedList();
@@ -53,6 +54,20 @@ public class Test {
         list.addLast(3);
         list.addLast(4);
         list.removeKey(3);
+        System.out.println("删除结果：");
+        list.display();
+    }
+
+    public static void testRemoveAllKey() {
+        SingleLinkedList list = new SingleLinkedList();
+        list.addLast(1);
+        list.addLast(2);
+        list.addLast(3);
+        list.addLast(3);
+        list.addLast(3);
+        list.addLast(4);
+        list.addLast(4);
+        list.removeAllKey(3);
         System.out.println("删除结果：");
         list.display();
     }

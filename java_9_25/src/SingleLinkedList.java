@@ -123,4 +123,29 @@ public class SingleLinkedList {
         }
         return null;
     }
+    // 删除所有出现的关键字 key 结点
+    public void removeAllKey(int toRemove) {
+        if (head == null) {
+            return;
+        }
+        // 先处理后续的节点, 最后处理头结点的情况
+        LinkedNode prev = head;
+        LinkedNode cur = head.next;
+        while (cur != null) {
+            if (cur.data == toRemove) {
+                // cur 对应的节点就应该删掉
+                prev.next = cur.next;  // 删除 cur 指向的节点
+                cur = prev.next; // 让 cur 继续指向 prev 的下一个节点
+            } else {
+                // cur 对应的节点不用删除
+                prev = cur;
+                cur = cur.next;
+            }
+        }
+        // 头结点的情况
+        if (this.head.data == toRemove) {
+            this.head = this.head.next;
+        }
+        return;
+    }
 }
