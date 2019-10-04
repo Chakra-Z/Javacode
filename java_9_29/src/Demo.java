@@ -99,6 +99,56 @@ public class Demo {
         }
         return size;
     }
+
+    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+        if (l1 == null) {
+            return l2;
+        }
+        if (l2 == null) {
+            return l1;
+        }
+        ListNode cur1 = l1;
+        ListNode cur2 = l2;
+        ListNode newHead = null;
+        ListNode newTail = null;
+        while (cur1 != null && cur2 != null) {
+            if (cur1.val < cur2.val) {
+                // 就把 cur1 指向的节点插入到新链表的尾部
+                if (newHead == null) {
+                    // 新链表是空链表
+                    newHead = cur1;
+                    newTail = cur1;
+                    cur1 = cur1.next;
+                } else {
+                    // 新链表不是空链表
+                    newTail.next = cur1;
+                    // 更新尾部的指向.
+                    newTail = newTail.next;
+                    cur1 = cur1.next;
+                }
+            } else {
+                // 就把 cur2 指向的节点插入到新链表的尾部
+                if (newHead == null) {
+                    newHead = cur2;
+                    newTail = cur2;
+                    cur2 = cur2.next;
+                } else {
+                    newTail.next = cur2;
+                    newTail = newTail.next;
+                    cur2 = cur2.next;
+                }
+            }
+        }
+        // 如何判定当前哪个链表到达结尾, 哪个链表还有剩余?
+        if (cur1 == null) {
+            // cur2 还有剩余
+            newTail.next = cur2;
+        } else {
+            // cur1 还有剩余
+            newTail.next = cur1;
+        }
+        return newHead;
+    }
 }
 
 
