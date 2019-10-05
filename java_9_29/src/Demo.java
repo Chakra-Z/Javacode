@@ -100,54 +100,67 @@ public class Demo {
         return size;
     }
 
+    // 合并两个有序链表
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+        // l1 为空链表
         if (l1 == null) {
             return l2;
         }
+        // l2 为空链表
         if (l2 == null) {
             return l1;
         }
         ListNode cur1 = l1;
         ListNode cur2 = l2;
-        ListNode newHead = null;
-        ListNode newTail = null;
+        ListNode newHead = new ListNode(-1);
+        ListNode newTail = newHead;
+        // 循环比较并插入到新链表
         while (cur1 != null && cur2 != null) {
             if (cur1.val < cur2.val) {
-                // 就把 cur1 指向的节点插入到新链表的尾部
-                if (newHead == null) {
-                    // 新链表是空链表
-                    newHead = cur1;
-                    newTail = cur1;
-                    cur1 = cur1.next;
-                } else {
-                    // 新链表不是空链表
-                    newTail.next = cur1;
-                    // 更新尾部的指向.
-                    newTail = newTail.next;
-                    cur1 = cur1.next;
-                }
-            } else {
-                // 就把 cur2 指向的节点插入到新链表的尾部
-                if (newHead == null) {
-                    newHead = cur2;
-                    newTail = cur2;
-                    cur2 = cur2.next;
-                } else {
-                    newTail.next = cur2;
-                    newTail = newTail.next;
-                    cur2 = cur2.next;
-                }
+                newTail.next = cur1;
+                newTail = newTail.next;
+                cur1 = cur1.next;
+            }else {
+                newTail.next = cur2;
+                newTail = newTail.next;
+                cur2 = cur2.next;
             }
         }
-        // 如何判定当前哪个链表到达结尾, 哪个链表还有剩余?
+        // 判断循环结束是哪个链表先插完
         if (cur1 == null) {
-            // cur2 还有剩余
             newTail.next = cur2;
-        } else {
-            // cur1 还有剩余
+        }
+        if (cur2 == null) {
             newTail.next = cur1;
         }
-        return newHead;
+        return newHead.next;
+    }
+
+    // 以给定值分割链表
+    public ListNode partition(ListNode pHead, int x) {
+        if (pHead == null) {
+            return null;
+        }
+        if (pHead.next == null) {
+            // 只有一个元素
+            return pHead;
+        }
+        // 创建两个新的链表
+        ListNode smallHead = new ListNode(-1);
+        ListNode smallTail = smallHead;
+        ListNode bigHead = new ListNode(-1);
+        ListNode bigTail = bigHead;
+        for (ListNode cur = pHead; cur != null; cur = cur.next) {
+            if (cur.val < x) {
+                smallTail.next = new ListNode(cur.val);
+                smallTail = smallTail.next;
+            }else {
+                bigTail.next = new ListNode(cur.val);
+                bigTail = bigTail.next;
+            }
+        }
+        smallTail.next = bigHead.next;
+        return smallHead.next;
     }
 }
 
