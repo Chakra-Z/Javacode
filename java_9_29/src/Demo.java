@@ -162,6 +162,57 @@ public class Demo {
         smallTail.next = bigHead.next;
         return smallHead.next;
     }
+
+    // 排序链表，删除所有重复的元素，使得每个元素只出现一次
+    public ListNode deleteDuplicates(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        ListNode cur = head;
+        while (cur != null && cur.next != null) {
+            if(cur.val == cur.next.val) {
+                cur.next = cur.next.next;
+            }else {
+                cur = cur.next;
+            }
+        }
+        return head;
+    }
+
+    // 相交链表取交点
+    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+        int lenA = size(headA);
+        int lenB = size(headB);
+        if (lenA > lenB) {
+            for (int i = 0; i < lenA - lenB; i++) {
+                headA = headA.next;
+            }
+        }else {
+            for (int i = 0; i < lenB - lenA; i++) {
+                headB = headB.next;
+            }
+        }
+        while (headA != null && headB != null) {
+            if (headA == headB) {
+                return headA;
+            }
+            headA = headA.next;
+            headB = headB.next;
+        }
+        return null;
+    }
+    // 相交链表取交点(大佬写的牛逼代码)
+    public ListNode getIntersectionNode2(ListNode headA, ListNode headB) {
+        if (headA == null || headB == null) {
+            return null;
+        }
+        ListNode pA = headA, pB = headB;
+        while (pA != pB) {
+            pA = pA == null ? headB : pA.next;
+            pB = pB == null ? headA : pB.next;
+        }
+        return pA;
+    }
 }
 
 
