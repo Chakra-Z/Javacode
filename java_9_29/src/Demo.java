@@ -163,7 +163,7 @@ public class Demo {
         return smallHead.next;
     }
 
-    // 排序链表，删除所有重复的元素，使得每个元素只出现一次
+    // 排序链表，删除重复的元素，使得每个元素只出现一次
     public ListNode deleteDuplicates(ListNode head) {
         if (head == null || head.next == null) {
             return head;
@@ -177,6 +177,37 @@ public class Demo {
             }
         }
         return head;
+    }
+
+    // 排序链表，删除所有重复的元素
+    public ListNode deleteDuplication(ListNode pHead) {
+        // 创建一个新的链表, 用来放置不重复的元素
+        ListNode newHead = new ListNode(-1);
+        ListNode newTail = newHead;
+
+        ListNode cur = pHead;
+        while (cur != null) {
+            if (cur.next != null
+                    && cur.val == cur.next.val) {
+                // 说明 cur 指向的位置已经是重复的节点了
+                // 继续往后找 cur, 找到那个不重复的节点的位置
+                // 这样做是为了把若干个相同的节点都跳过去
+                while (cur.next != null
+                        && cur.val == cur.next.val) {
+                    cur = cur.next;
+                }
+                // 循环结束, cur 指向的是这片重复元素的最后一个
+                // 再多走一步, cur 指向的就是不重复的元素了
+                cur = cur.next;
+            } else {
+                // 当前这个节点不是重复节点
+                // 就把这个节点插入到新链表中
+                newTail.next = new ListNode(cur.val);
+                newTail = newTail.next;
+                cur = cur.next;
+            }
+        }   // end while
+        return newHead.next;
     }
 
     // 相交链表取交点
@@ -213,6 +244,50 @@ public class Demo {
         }
         return pA;
     }
+
+    // 判断链表回文
+    public boolean chkPalindrome(ListNode A) {
+        if (A == null) {
+            // 此处只是假设算回文
+            return true;
+        }
+        if (A.next == null) {
+            // 只有一个元素, 就是回文
+            return true;
+        }
+        // 1. 找中间节点
+        int len = size(A);
+        int steps = len / 2;
+        ListNode B = A;
+        for (int i = 0; i < steps; i++) {
+            B = B.next;
+        }
+        ListNode prev = null;
+        ListNode cur = B;
+        while (cur != null) {
+            ListNode next = cur.next;
+            if (next == null) {
+                // 使用 B 指向新链表的头部
+                B = cur;
+            }
+            cur.next = prev;
+            // 更新 prev, 更新 cur
+            prev = cur;
+            cur = next;
+        }
+        // 3. 对比两个链表内容是否相同
+        while (B != null) {
+            if (A.val != B.val) {
+                // 对应元素不相等, 一定不是回文
+                return false;
+            }
+            A = A.next;
+            B = B.next;
+        }
+        return true;
+    }
+
+
 }
 
 
