@@ -287,7 +287,51 @@ public class Demo {
         return true;
     }
 
+    // 判断链表有环
+    public boolean hasCycle(ListNode head) {
+        if (head == null) {
+            return false;
+        }
+        ListNode slow = head;
+        ListNode fast = head;
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+            if (slow == fast) {
+                return true;
+            }
+        }
+        return false;
+    }
 
+    // 返回入环的第一个结点，没有返回空
+    public ListNode detectCycle(ListNode head) {
+        if (head == null) {
+            return null;
+        }
+        ListNode slow = head;
+        ListNode fast = head;
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+            if (slow == fast) {
+                break;
+            }
+        }
+        // 循环结束有两种结果
+        // 1、不带环
+        if (fast == null || fast.next == null) {
+            return null;
+        }
+        // 2、fast 和 slow 已经重合了
+        ListNode cur1 = head;
+        ListNode cur2 = fast;
+        while (cur1 != cur2) {
+            cur1 = cur1.next;
+            cur2 = cur2.next;
+        }
+        return cur1;
+    }
 }
 
 
