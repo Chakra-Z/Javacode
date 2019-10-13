@@ -51,4 +51,32 @@ public class Test {
         boolean result = list.contains(3);
         System.out.println("测试是否存在指定值：" + result);
     }
+
+    public static void testRemove() {
+        DLinkedList list = new DLinkedList();
+        list.addLast(1);
+        list.addLast(2);
+        list.addLast(2);
+        list.addLast(4);
+        System.out.println("测试删除前：");
+        list.display();
+
+        list.remove(2);
+        System.out.println("测试删除后：");
+        list.display();
+    }
+
+    public static void testRemoveAll() {
+        DLinkedList list = new DLinkedList();
+        list.addLast(1);
+        list.addLast(2);
+        list.addLast(2);
+        list.addLast(4);
+        System.out.println("测试删除前：");
+        list.display();
+
+        list.removeAll(2);
+        System.out.println("测试删除后：");
+        list.display();
+    }
 }

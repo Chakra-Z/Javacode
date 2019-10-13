@@ -97,4 +97,30 @@ public class DLinkedList {
         }
         return false;
     }
+
+    // 删除第一次出现关键字为key的节点
+    public void remove(int key) {
+        for (DLinkedNode cur = head.next; cur != head; cur = cur.next) {
+            if (cur.val == key) {
+                cur.prev.next = cur.next;
+                cur.next.prev = cur.prev;
+                break;
+            }
+        }
+    }
+
+    // 删除出现所有关键字为key的节点
+    public void removeAll(int key) {
+        for (DLinkedNode cur = head.next; cur != head; cur = cur.next) {
+            if (cur.val == key) {
+                cur.prev.next = cur.next;
+                cur.next.prev = cur.prev;
+            }
+        }
+    }
+
+    public void clear() {
+        head.next = null;
+        head.prev = null;
+    }
 }
