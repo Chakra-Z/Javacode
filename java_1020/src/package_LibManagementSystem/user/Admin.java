@@ -13,7 +13,7 @@ public class Admin extends User {
                 new Find(),
                 new Add(),
                 new Delete(),
-                new Print()
+                new PrintAll()
         };
     }
 

@@ -37,4 +37,12 @@ public class Book {
     public String getId() {
         return id;
     }
+
+    public boolean isBorrowed() {
+        return isBorrowed;
+    }
+
+    public void setBorrowed(boolean borrowed) {
+        isBorrowed = borrowed;
+    }
 }

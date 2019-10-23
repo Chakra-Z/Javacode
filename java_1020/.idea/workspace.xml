@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33ff0853-6696-460d-aeac-617839b8c623" name="默认" comment="" />
+    <list default="true" id="33ff0853-6696-460d-aeac-617839b8c623" name="默认" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_1020/package_LibManagementSystem/book/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_1020/package_LibManagementSystem/book/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_1020/package_LibManagementSystem/book/BookList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_1020/package_LibManagementSystem/book/BookList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_1020/package_LibManagementSystem/operation/Borrow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_1020/package_LibManagementSystem/operation/Borrow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_1020/package_LibManagementSystem/operation/Delete.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_1020/package_LibManagementSystem/operation/Delete.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_1020/package_LibManagementSystem/operation/Exit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_1020/package_LibManagementSystem/operation/Exit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_1020/package_LibManagementSystem/operation/Find.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_1020/package_LibManagementSystem/operation/Find.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_1020/package_LibManagementSystem/operation/Print.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_1020/package_LibManagementSystem/operation/Return.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_1020/package_LibManagementSystem/operation/Return.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_1020/package_LibManagementSystem/user/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_1020/package_LibManagementSystem/user/Admin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/package_LibManagementSystem/book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/package_LibManagementSystem/book/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/package_LibManagementSystem/book/BookList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/package_LibManagementSystem/book/BookList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/package_LibManagementSystem/operation/Borrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/package_LibManagementSystem/operation/Borrow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/package_LibManagementSystem/operation/Delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/package_LibManagementSystem/operation/Delete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/package_LibManagementSystem/operation/Exit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/package_LibManagementSystem/operation/Exit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/package_LibManagementSystem/operation/Find.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/package_LibManagementSystem/operation/Find.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/package_LibManagementSystem/operation/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/package_LibManagementSystem/operation/PrintAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/package_LibManagementSystem/operation/Return.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/package_LibManagementSystem/operation/Return.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/package_LibManagementSystem/user/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/package_LibManagementSystem/user/Admin.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,67 +60,42 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-47004253">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="3" />
+          <entry key="java" value="887" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="887" />
+          <entry key="PLAIN_TEXT" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/operation/Add.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
-              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/user/Admin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-99">
-              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/book/Book.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
-              <folding>
-                <element signature="e#872#873#0" expanded="true" />
-                <element signature="e#901#902#0" expanded="true" />
-                <element signature="e#926#927#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/book/BookList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-              <folding>
-                <element signature="e#482#483#0" expanded="true" />
-                <element signature="e#516#517#0" expanded="true" />
-                <element signature="e#568#569#0" expanded="true" />
-                <element signature="e#607#608#0" expanded="true" />
-                <element signature="e#600#601#0" expanded="true" />
-                <element signature="e#627#628#0" expanded="true" />
-                <element signature="e#664#665#0" expanded="true" />
-                <element signature="e#696#697#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -110,26 +105,30 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/package_LibManagementSystem/book/book.java" />
         <option value="$PROJECT_DIR$/src/package_LibManagementSystem/user/user.java" />
         <option value="$PROJECT_DIR$/src/package_LibManagementSystem/operation/IOperation.java" />
-        <option value="$PROJECT_DIR$/src/package_LibManagementSystem/operation/Borrow.java" />
-        <option value="$PROJECT_DIR$/src/package_LibManagementSystem/operation/Delete.java" />
-        <option value="$PROJECT_DIR$/src/package_LibManagementSystem/operation/Exit.java" />
-        <option value="$PROJECT_DIR$/src/package_LibManagementSystem/operation/Find.java" />
         <option value="$PROJECT_DIR$/src/package_LibManagementSystem/operation/Print.java" />
-        <option value="$PROJECT_DIR$/src/package_LibManagementSystem/operation/Return.java" />
         <option value="$PROJECT_DIR$/src/package_LibManagementSystem/user/NormallUser.java" />
         <option value="$PROJECT_DIR$/src/package_LibManagementSystem/user/NormalUser.java" />
         <option value="$PROJECT_DIR$/src/package_LibManagementSystem/user/Admin.java" />
         <option value="$PROJECT_DIR$/src/package_LibManagementSystem/main.java" />
         <option value="$PROJECT_DIR$/src/package_LibManagementSystem/user/User.java" />
-        <option value="$PROJECT_DIR$/src/package_LibManagementSystem/book/Book.java" />
-        <option value="$PROJECT_DIR$/src/package_LibManagementSystem/book/BookList.java" />
         <option value="$PROJECT_DIR$/src/package_LibManagementSystem/operation/Add.java" />
+        <option value="$PROJECT_DIR$/src/package_LibManagementSystem/operation/Borrow.java" />
+        <option value="$PROJECT_DIR$/src/package_LibManagementSystem/operation/Delete.java" />
+        <option value="$PROJECT_DIR$/src/package_LibManagementSystem/operation/Exit.java" />
+        <option value="$PROJECT_DIR$/src/package_LibManagementSystem/operation/Find.java" />
+        <option value="$PROJECT_DIR$/src/package_LibManagementSystem/book/BookList.java" />
+        <option value="$PROJECT_DIR$/src/package_LibManagementSystem/book/Book.java" />
+        <option value="$PROJECT_DIR$/src/package_LibManagementSystem/operation/PrintAll.java" />
+        <option value="$PROJECT_DIR$/src/package_LibManagementSystem/operation/Return.java" />
       </list>
     </option>
   </component>
@@ -140,16 +139,18 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-133" />
-    <option name="y" value="11" />
+    <option name="x" value="-135" />
+    <option name="y" value="10" />
     <option name="width" value="1205" />
     <option name="height" value="925" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,14 +195,13 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571666132625" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../package_bookmanager" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571823611728" />
+    <property name="last_opened_file_path" value="F:/360MoveData/Users/hp/Desktop/code/package_bookmanager" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -254,17 +254,19 @@
       <updated>1571554203263</updated>
       <workItem from="1571554208705" duration="4086000" />
       <workItem from="1571659831762" duration="6355000" />
+      <workItem from="1571811870392" duration="1353000" />
+      <workItem from="1571818255014" duration="4544000" />
+      <workItem from="1571823590874" duration="30000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10441000" />
+    <option name="totallyTimeSpent" value="16368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15549597" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.211126" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="设计器" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -273,7 +275,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.858156" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -283,7 +285,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="调试" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -302,54 +304,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/operation/Borrow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/operation/Delete.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/operation/Exit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/operation/Print.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/operation/Return.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../package_bookmanager/user/NormalUser.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../package_bookmanager/Main.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/operation/Find.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../package_bookmanager/user/NormalUser.java" />
+    <entry file="file://$PROJECT_DIR$/../package_bookmanager/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/user/NormalUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-132">
@@ -367,15 +323,86 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/user/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/user/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/operation/Borrow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/operation/Delete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/operation/Add.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/operation/Exit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/book/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
+            <element signature="e#994#995#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1080#1081#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/operation/PrintAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/operation/Return.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/book/BookList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -389,49 +416,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/book/Book.java">
+    <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/operation/Find.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
-          <folding>
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
-            <element signature="e#926#927#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/book/BookList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-          <folding>
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/operation/Add.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/user/Admin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-99">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        <state relative-caret-position="358">
+          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
