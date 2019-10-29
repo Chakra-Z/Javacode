@@ -2,7 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33ff0853-6696-460d-aeac-617839b8c623" name="默认" comment="">
-      <change beforePath="$PROJECT_DIR$/java_1020.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_libSystem.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WarehouseManagement/src/WarehouseManagement/storage/PrintStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WarehouseManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WarehouseManagement/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WarehouseManagement/src/WarehouseManagement/goods/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WarehouseManagement/src/WarehouseManagement/goods/Goods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WarehouseManagement/src/WarehouseManagement/goods/GoodsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WarehouseManagement/src/WarehouseManagement/goods/GoodsList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WarehouseManagement/src/WarehouseManagement/storage/AddStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WarehouseManagement/src/WarehouseManagement/storage/AddStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/java_libSystem.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/out/production/java_1020/package_LibManagementSystem/book/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/out/production/java_1020/package_LibManagementSystem/book/BookList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/out/production/java_1020/package_LibManagementSystem/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/out/production/java_1020/package_LibManagementSystem/operation/Add.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/out/production/java_1020/package_LibManagementSystem/operation/Borrow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/out/production/java_1020/package_LibManagementSystem/operation/Delete.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/out/production/java_1020/package_LibManagementSystem/operation/Exit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/out/production/java_1020/package_LibManagementSystem/operation/Find.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/out/production/java_1020/package_LibManagementSystem/operation/IOperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/out/production/java_1020/package_LibManagementSystem/operation/PrintAll.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/out/production/java_1020/package_LibManagementSystem/operation/Return.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/out/production/java_1020/package_LibManagementSystem/user/Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/out/production/java_1020/package_LibManagementSystem/user/NormalUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/out/production/java_1020/package_LibManagementSystem/user/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/src/package_LibManagementSystem/book/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/src/package_LibManagementSystem/book/BookList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/src/package_LibManagementSystem/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/src/package_LibManagementSystem/operation/Add.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/src/package_LibManagementSystem/operation/Borrow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/src/package_LibManagementSystem/operation/Delete.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/src/package_LibManagementSystem/operation/Exit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/src/package_LibManagementSystem/operation/Find.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/src/package_LibManagementSystem/operation/IOperation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/src/package_LibManagementSystem/operation/PrintAll.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/src/package_LibManagementSystem/operation/Return.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/src/package_LibManagementSystem/user/Admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/src/package_LibManagementSystem/user/NormalUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/src/package_LibManagementSystem/user/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,9 +115,95 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1218081625">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="7" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/operation/Add.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/operation/PrintAll.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="19" column="9" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="19" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/user/Admin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="811">
+              <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/user/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/user/NormalUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/book/BookList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -138,13 +263,40 @@
         <subPane>
           <expand>
             <path>
-              <item name="java_1020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_1020" type="462c0819:PsiDirectoryNode" />
+              <item name="java_libSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_libSystem" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="java_1020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_1020" type="462c0819:PsiDirectoryNode" />
+              <item name="java_libSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_libSystem" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_libSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_libSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="package_LibManagementSystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_libSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_libSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="package_LibManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_libSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_libSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="package_LibManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="operation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_libSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_libSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="package_LibManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -214,16 +366,18 @@
       <workItem from="1571818255014" duration="4544000" />
       <workItem from="1571823590874" duration="30000" />
       <workItem from="1571921387496" duration="93000" />
+      <workItem from="1572351165880" duration="2976000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16461000" />
+    <option name="totallyTimeSpent" value="19437000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21380697" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21648793" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="设计器" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -253,6 +407,37 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21648793" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="设计器" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.858156" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="调试" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32907802" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="调色板" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -263,31 +448,10 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../package_bookmanager/user/NormalUser.java" />
     <entry file="file://$PROJECT_DIR$/../package_bookmanager/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/user/NormalUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-132">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/operation/IOperation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/user/Admin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/user/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -305,13 +469,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/operation/Add.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/operation/Exit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
@@ -323,16 +480,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="726">
           <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding>
-            <element signature="e#845#846#0" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
-            <element signature="e#926#927#0" expanded="true" />
-            <element signature="e#961#962#0" expanded="true" />
-            <element signature="e#994#995#0" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
-            <element signature="e#1080#1081#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/operation/Return.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/operation/Find.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/operation/Add.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -343,40 +511,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/operation/Return.java">
+    <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/user/Admin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="811">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/book/BookList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        <state relative-caret-position="198">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="231">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="19" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/operation/Find.java">
+    <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/user/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="264">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package_LibManagementSystem/user/NormalUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
         </state>
       </provider>
     </entry>
