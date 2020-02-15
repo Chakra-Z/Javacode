@@ -2,6 +2,7 @@ package tcp;
 
 import java.io.*;
 import java.net.Socket;
+import java.util.Scanner;
 
 public class TCPClient {
 
@@ -17,8 +18,17 @@ public class TCPClient {
         OutputStream os = socket.getOutputStream();// 输出字节流
 //        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(os,"UTF-8"));
         PrintWriter pw = new PrintWriter(os,true);
-        pw.println("hello,我来了");
+//        pw.println("hello,我来了");
 //        bw.write("我来了");
 //        bw.flush();
+        Scanner scanner = new Scanner(System.in);
+        while (scanner.hasNextLine()) {
+            String line = scanner.nextLine();
+            // 发送数据到服务器
+            pw.println(line);
+            // 接收服务器
+            String response = br.readLine();
+            System.out.println("接收到服务端响应:" +response);
+        }
     }
 }

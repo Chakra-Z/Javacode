@@ -6,11 +6,7 @@ import java.net.DatagramSocket;
 import java.net.InetAddress;
 import java.util.Scanner;
 
-/**
- * @author zhangmingming  braveheart1115@163.com
- * @date 2019年09月27日 19:50
- * @Description:
- */
+
 public class UdpClient {
     // 定义发送数据报的目的地
     public static final int DEST_PORT = 30000;
