@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7090ffa3-7eea-4878-8a21-d485e02561a7" name="默认" comment="">
+      <change afterPath="$PROJECT_DIR$/../java_github_crawler/src/main/java/crawler/Crawler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_github_crawler/src/main/java/dao/DBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_github_crawler/src/main/java/dao/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_github_crawler/src/main/java/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_github_crawler/src/main/java/test/TestGson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WarehouseManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WarehouseManagement/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WarehouseManagement/src/WarehouseManagement/goods/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WarehouseManagement/src/WarehouseManagement/goods/Goods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WarehouseManagement/src/WarehouseManagement/goods/GoodsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WarehouseManagement/src/WarehouseManagement/goods/GoodsList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WarehouseManagement/src/WarehouseManagement/storage/AddStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WarehouseManagement/src/WarehouseManagement/storage/AddStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_0212/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_0212/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/java_libSystem.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/out/production/java_1020/package_LibManagementSystem/book/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/out/production/java_1020/package_LibManagementSystem/book/BookList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/out/production/java_1020/package_LibManagementSystem/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/out/production/java_1020/package_LibManagementSystem/operation/Add.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/out/production/java_1020/package_LibManagementSystem/operation/Borrow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/out/production/java_1020/package_LibManagementSystem/operation/Delete.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/out/production/java_1020/package_LibManagementSystem/operation/Exit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/out/production/java_1020/package_LibManagementSystem/operation/Find.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/out/production/java_1020/package_LibManagementSystem/operation/IOperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/out/production/java_1020/package_LibManagementSystem/operation/PrintAll.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/out/production/java_1020/package_LibManagementSystem/operation/Return.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/out/production/java_1020/package_LibManagementSystem/user/Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/out/production/java_1020/package_LibManagementSystem/user/NormalUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/out/production/java_1020/package_LibManagementSystem/user/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/src/package_LibManagementSystem/book/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/src/package_LibManagementSystem/book/BookList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/src/package_LibManagementSystem/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/src/package_LibManagementSystem/operation/Add.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/src/package_LibManagementSystem/operation/Borrow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/src/package_LibManagementSystem/operation/Delete.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/src/package_LibManagementSystem/operation/Exit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/src/package_LibManagementSystem/operation/Find.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/src/package_LibManagementSystem/operation/IOperation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/src/package_LibManagementSystem/operation/PrintAll.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/src/package_LibManagementSystem/operation/Return.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/src/package_LibManagementSystem/user/Admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/src/package_LibManagementSystem/user/NormalUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_1020/src/package_LibManagementSystem/user/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_binaryTree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_binaryTree/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_binaryTree/src/BinaryTree2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_binaryTree/src/BinaryTree2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_libSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_libSystem/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_tree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_tree/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_tree/out/production/java_tree/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java_tree/out/production/java_tree/BinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_tree/src/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_tree/src/BinaryTree.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/java0310/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-2018011983">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.28" value="2" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.opened" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="22" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="22" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1435" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1435" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java0316/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>E:\javacode\Test\java0313\src</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/java0307/src/Main.java" />
+        <option value="$PROJECT_DIR$/java0307/src/com/Test/Main2.java" />
+        <option value="$PROJECT_DIR$/java0307/src/com/Test/Main1.java" />
+        <option value="$PROJECT_DIR$/java0307/src/com/Test/Main3.java" />
+        <option value="$PROJECT_DIR$/java0309/src/Main.java" />
+        <option value="$PROJECT_DIR$/java0310/pom.xml" />
+        <option value="$PROJECT_DIR$/java0309/src/Main1.java" />
+        <option value="$PROJECT_DIR$/java0310/src/Main.java" />
+        <option value="$PROJECT_DIR$/java0312/src/Main.java" />
+        <option value="$PROJECT_DIR$/java0313/src/Solution.java" />
+        <option value="$PROJECT_DIR$/java0316/src/Main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\Tools\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-50" />
+    <option name="y" value="20" />
+    <option name="width" value="1065" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="添加" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java0316" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java0316" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584351893345" />
+    <property name="jdk.selected.JAVA_MODULE" value="12" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\javacode\Test\java0307\src\com\Test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="java0310" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="java0312" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main1" />
+      <module name="java0309" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="12" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="java0316" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
+      <module name="java0313" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main1 (1)" />
+      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Solution" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main1 (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7090ffa3-7eea-4878-8a21-d485e02561a7" name="默认" comment="" />
+      <created>1583583487373</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583583487373</updated>
+      <workItem from="1583583488703" duration="711000" />
+      <workItem from="1583584414283" duration="7471000" />
+      <workItem from="1583740900477" duration="3618000" />
+      <workItem from="1583762177838" duration="906000" />
+      <workItem from="1583821472407" duration="6564000" />
+      <workItem from="1583915782698" duration="1213000" />
+      <workItem from="1584000756174" duration="2653000" />
+      <workItem from="1584069507152" duration="1630000" />
+      <workItem from="1584167542328" duration="33000" />
+      <workItem from="1584346135293" duration="3904000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="28703000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19504021" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="设计器" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39007092" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Problems" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32907802" />
+      <window_info anchor="bottom" id="调试" order="13" weight="0.28936172" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="调色板" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.3297587" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java0310/src/Main.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java0310/src/Main.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java0310/src/Main.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../java_9_19.java/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3746">
+          <caret selection-end-line="157" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java0307/src/com/Test/Main2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java0307/src/com/Test/Main1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java0307/src/com/Test/Main3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java0310/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/java0309/src/Main1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java0310/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#1304#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java0312/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java0313/src/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java0309/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk-12.0.2/lib/src.zip!/java.base/java/lang/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="8176" selection-start-line="8176" selection-end-line="8176" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java0316/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
