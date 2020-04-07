@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7090ffa3-7eea-4878-8a21-d485e02561a7" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/../java_github_crawler/src/main/java/crawler/Crawler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_github_crawler/src/main/java/dao/DBUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_github_crawler/src/main/java/dao/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_github_crawler/src/main/java/test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_github_crawler/src/main/java/test/TestGson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_searchEngine/src/main/java/index/Index.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java0407/java0407.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java0407/java0407.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java0407/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java0407/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WarehouseManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WarehouseManagement/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WarehouseManagement/src/WarehouseManagement/goods/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WarehouseManagement/src/WarehouseManagement/goods/Goods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WarehouseManagement/src/WarehouseManagement/goods/GoodsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WarehouseManagement/src/WarehouseManagement/goods/GoodsList.java" afterDir="false" />
@@ -57,6 +52,7 @@
       <change beforePath="$PROJECT_DIR$/../java_tree/src/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_tree/src/BinaryTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/java0310/target/" />
+    <ignored path="$PROJECT_DIR$/java0407/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,37 +100,73 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="50" />
+          <entry key="java" value="53" />
           <entry key="txt" value="1" />
-          <entry key="xml" value="1" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="50" />
+          <entry key="JAVA" value="53" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="1" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="6467" />
+          <entry key="java" value="6471" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6467" />
+          <entry key="JAVA" value="6471" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java0406/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            <state relative-caret-position="92">
+              <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java0407/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java0407/src/main/java/memory/IntegerInMemory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java0407/src/main/java/memory/StringInMemory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="78" column="41" selection-start-line="78" selection-start-column="41" selection-end-line="78" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Java/jdk-12.0.2/lib/src.zip!/java.base/java/lang/StringBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="172" column="43" lean-forward="true" selection-start-line="172" selection-start-column="43" selection-end-line="172" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -183,6 +215,8 @@
         <option value="$PROJECT_DIR$/java0331/src/Main2.java" />
         <option value="$PROJECT_DIR$/java0404/src/DeadLock.java" />
         <option value="$PROJECT_DIR$/java0406/src/Main.java" />
+        <option value="$PROJECT_DIR$/java0407/pom.xml" />
+        <option value="$PROJECT_DIR$/java0407/src/main/java/memory/StringInMemory.java" />
       </list>
     </option>
   </component>
@@ -197,6 +231,11 @@
       <MavenGeneralSettings>
         <option name="userSettingsFile" value="D:\Tools\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -225,7 +264,33 @@
           <expand>
             <path>
               <item name="Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java0406" type="462c0819:PsiDirectoryNode" />
+              <item name="java0407" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java0407" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java0407" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java0407" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java0407" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="memory" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -237,7 +302,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586255638807" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586261312237" />
     <property name="jdk.selected.JAVA_MODULE" value="12" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -247,6 +312,9 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\javacode\Test\java0407\src\main\java" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\javacode\Test\java0307\src\com\Test" />
     </key>
@@ -263,7 +331,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="JUnit.StringInMemory.test7_1">
     <configuration name="DeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DeadLock" />
       <module name="java0404" />
@@ -278,13 +346,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="java0327" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="java0331" />
@@ -292,27 +353,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="java0328" />
+    <configuration name="StringInMemory.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java0407" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="memory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="memory" />
+      <option name="MAIN_CLASS_NAME" value="memory.StringInMemory" />
+      <option name="METHOD_NAME" value="test6" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringInMemory.test7_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java0407" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="memory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="memory" />
+      <option name="MAIN_CLASS_NAME" value="memory.StringInMemory" />
+      <option name="METHOD_NAME" value="test7_1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (5)" />
-      <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.DeadLock" />
       <item itemvalue="Application.Main (1)" />
+      <item itemvalue="JUnit.StringInMemory.test6" />
+      <item itemvalue="JUnit.StringInMemory.test7_1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringInMemory.test7_1" />
+        <item itemvalue="JUnit.StringInMemory.test6" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.DeadLock" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Main (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -357,12 +443,32 @@
       <workItem from="1585970281859" duration="4481000" />
       <workItem from="1586172183950" duration="595000" />
       <workItem from="1586173795537" duration="2388000" />
-      <workItem from="1586246478185" duration="3726000" />
+      <workItem from="1586246478185" duration="5705000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="StringInMemory_test6 - 2020.04.07 at 20h 06m 20s.xml">
+      <configuration name="StringInMemory.test6" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringInMemory_test6 - 2020.04.07 at 20h 06m 34s.xml">
+      <configuration name="StringInMemory.test6" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringInMemory_test7_1 - 2020.04.07 at 20h 06m 53s.xml">
+      <configuration name="StringInMemory.test7_1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringInMemory_test7_1 - 2020.04.07 at 20h 07m 12s.xml">
+      <configuration name="StringInMemory.test7_1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringInMemory_test7_1 - 2020.04.07 at 20h 07m 28s.xml">
+      <configuration name="StringInMemory.test7_1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringInMemory_test7_1 - 2020.04.07 at 20h 07m 42s.xml">
+      <configuration name="StringInMemory.test7_1" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96471000" />
+    <option name="totallyTimeSpent" value="98450000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -383,11 +489,11 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49932885" visible="true" weight="0.16783217" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49932885" visible="true" weight="0.16783217" />
       <window_info id="Alibaba Cloud Explorer" order="7" weight="0.3296011" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3671562" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3671562" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -678,8 +784,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java0406/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        <state relative-caret-position="92">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java0407/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java0407/src/main/java/memory/IntegerInMemory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk-12.0.2/lib/src.zip!/java.base/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="172" column="43" lean-forward="true" selection-start-line="172" selection-start-column="43" selection-end-line="172" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java0407/src/main/java/memory/StringInMemory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="78" column="41" selection-start-line="78" selection-start-column="41" selection-end-line="78" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -735,7 +869,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>java0317</last-edited>
+          <last-edited>java0407</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
