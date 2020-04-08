@@ -7,6 +7,7 @@ public class GoUpstairs {
             System.out.println(countWays(scanner.nextInt()));
         }
     }
+
     public static int countWays(int n) {
         if(n <= 0){
             return 0;
