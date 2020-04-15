@@ -1,16 +1,98 @@
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Set;
 
 class Solution {
     public static void main(String[] args) {
         Solution solution = new Solution();
         int[] nums1 = {5,0,0,0,0};
         int m = 1;
-        int[] nums2 = {1,2,3,4};
+        int[] nums2 = {1, 7, 3, 6, 5, 6};
         int n = 4;
-        solution.merge(nums1,m,nums2,n);
-        for(int i = 0; i < nums1.length;i++){
-            System.out.println(nums1[i]);
-        }
+        //solution.merge(nums1,m,nums2,n);
+        int[] arr = solution.sortArrayByParity(nums2);
+        System.out.println(solution.pivotIndex(nums2));
+//        for(int i = 0; i < arr.length;i++){
+//            System.out.println(arr[i]);
+//        }
         //System.out.println(solution.lengthOfLastWord("abc"));
+        //System.out.println(solution.containsDuplicate(nums1));
+        //System.out.println(solution.containsDuplicate(nums2));
+    }
+
+    public int pivotIndex(int[] nums) {
+        int i;
+        int sum = 0;
+        int len = nums.length;
+        for(int x : nums){
+            sum += x;
+        }
+        for(i = 0; i < len; i++){
+            int leftsum = 0;
+            for(int j = 0; j < i; j++){
+                leftsum += nums[j];
+            }
+            if(leftsum == sum-nums[i]-leftsum){
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    // 按奇偶排序数组
+    public int[] sortArrayByParity(int[] A) {
+        int left = 0;
+        int right = A.length-1;
+        int[] B = new int[A.length];
+        while(left <= right){
+            for(int i = 0; i < A.length; i++){
+                if(A[i]%2 == 0){
+                    B[left] = A[i];
+                    left++;
+                }if(A[i]%2 == 1){
+                    B[right] = A[i];
+                    right--;
+                }
+            }
+        }
+        return B;
+    }
+
+    // 有序数组的平方
+    public int[] sortedSquares(int[] A) {
+        int n = A.length;
+        int[] B = new int[n];
+        for(int i = 0; i < n; i++){
+            B[i] = A[i]*A[i];
+        }
+        Arrays.sort(B);
+        return B;
+    }
+    //  存在重复元素
+    public boolean containsDuplicate(int[] nums) {
+        Set<Integer> set = new HashSet<>();
+        for(int x : nums){
+            if(set.contains(x)){
+                return true;
+            }else {
+                set.add(x);
+            }
+        }
+        return false;
+//        for(int i = 0; i < nums.length; i++){
+//            int n = nums[i];
+//            int count = 0;
+//            for(int j = 0; j < nums.length; j++){
+//                if(nums[j] == nums[i]){
+//                    count++;
+//                    if(count >= 2){
+//                        return true;
+//                    }
+//                }
+//            }
+//        }
+//        return false;
     }
 
     // 两个有序数组合并
