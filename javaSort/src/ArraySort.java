@@ -5,12 +5,18 @@ public class ArraySort {
         arr[x] = arr[y];
         arr[y] = temp;
     }
-    // 插入排序
+
+    private static void swap(int a, int b){
+        int temp = a;
+        a = b;
+        b = temp;
+    }
+    // 插入排序(模拟接牌整牌)
     private static void insertSort(int[] arr){
         for(int i = 1; i < arr.length; i++){
             int v = arr[i];
             int p = i;
-            while(p>0 && arr[p-1]>v){
+            while(p > 0 && arr[p-1] > v){
                 arr[p] = arr[p-1];
                 p--;
             }
@@ -18,7 +24,7 @@ public class ArraySort {
         }
     }
 
-    // 冒泡排序
+    // 冒泡排序(大数沉底，小数冒起来了)
     private static void bubbleSort(int[] arr) {
         for(int i = 0; i < arr.length-1; i++) {
             for(int k = 0; k < arr.length-i-1; k++){
@@ -29,7 +35,7 @@ public class ArraySort {
         }
     }
 
-    // 快速排序
+    // 快速排序(左右指针循环处理直到相遇)
     private static void quickSort(int[] arr, int left, int right){
         if(left >= right){
             return;
@@ -60,7 +66,7 @@ public class ArraySort {
         quickSort(arr, l+1, right);
     }
 
-    // 堆排序
+    // 堆排序(堆化(heapify)-->建堆(buildHeap)-->堆排序(heapSort))
     private static void heapSort(int[] tree, int n){
         buildHeap(tree, n);
         for(int i = n-1; i >= 0; i--) {
@@ -92,15 +98,31 @@ public class ArraySort {
         }
     }
 
+    // 选择排序(从剩余的部分选出最值)
+    private static void selectSort(int[] arr) {
+        int n = arr.length;
+        for(int i = 0; i < n; i++){
+            int min = i;
+            for(int j = i+1; j < n; j++){
+                if(arr[j] < arr[min]){
+                    swap(arr,min,j);
+                }
+            }
+        }
+    }
+
     public static void main(String[] args){
         int[] array = new int[]{2,9,8,7,6,4};
         int n = array.length;
         //quickSort(array,0,n - 1);
         //heapify(array,0,7) ;
-        heapSort(array,n);
+        //heapSort(array,n);
+        selectSort(array);
+
         for (int i : array){
             System.out.print(i + " ");
         }
     }
+
 }
 

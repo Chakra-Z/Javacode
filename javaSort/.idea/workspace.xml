@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04c86efa-2091-4600-8da5-657024d35c9f" name="默认" comment="">
-      <change beforePath="$PROJECT_DIR$/../Test/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Test/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test/out/production/java0408/GoUpstairs.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test/out/production/java0408/GoUpstairs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test/out/production/java0409/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test/out/production/java0409/Solution.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WarehouseManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WarehouseManagement/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WarehouseManagement/src/WarehouseManagement/goods/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WarehouseManagement/src/WarehouseManagement/goods/Goods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WarehouseManagement/src/WarehouseManagement/goods/GoodsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WarehouseManagement/src/WarehouseManagement/goods/GoodsList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WarehouseManagement/src/WarehouseManagement/storage/AddStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WarehouseManagement/src/WarehouseManagement/storage/AddStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSort/ArraySort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArraySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraySort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java_0212/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_0212/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java_1020/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../java_1020/.idea/modules.xml" beforeDir="false" />
@@ -66,12 +65,15 @@
     <session id="855171701">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -86,12 +88,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="873" />
+          <entry key="java" value="1633" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="873" />
+          <entry key="JAVA" value="1633" />
         </counts>
       </usages-collector>
     </session>
@@ -101,8 +103,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ArraySort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="483">
+              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -151,7 +153,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,13 +165,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585411856088" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586937885241" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -220,17 +222,20 @@
       <workItem from="1585463530487" duration="552000" />
       <workItem from="1586442536354" duration="26000" />
       <workItem from="1586488928659" duration="612000" />
+      <workItem from="1586785386382" duration="5025000" />
+      <workItem from="1586910152646" duration="19000" />
+      <workItem from="1586935795800" duration="2679000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9948000" />
+    <option name="totallyTimeSpent" value="17671000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14874302" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15502793" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -240,7 +245,7 @@
       <window_info id="Alibaba Cloud Explorer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2536913" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25333333" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -252,7 +257,7 @@
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="13" />
-      <window_info anchor="bottom" id="调试" order="14" weight="0.32885906" />
+      <window_info anchor="bottom" id="调试" order="14" weight="0.328" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -272,11 +277,23 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ArraySort.java</url>
+          <line>105</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/ArraySort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="483">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
         </state>
       </provider>
     </entry>
